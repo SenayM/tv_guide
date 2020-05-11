@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e31979c52722c43ebe760744aa9c84e0",
+    "revision": "4dfa772477975023a675733332d2b40d",
     "url": "/tv_guide/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tv_guide/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "09157bb62ef21f9c0f2e",
+    "revision": "c3754c856afbcd6aa3de",
     "url": "/tv_guide/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tv_guide/static/js/2.7d947054.chunk.js.LICENSE"
   },
   {
-    "revision": "09157bb62ef21f9c0f2e",
-    "url": "/tv_guide/static/js/main.bcaf74f0.chunk.js"
+    "revision": "c3754c856afbcd6aa3de",
+    "url": "/tv_guide/static/js/main.96d7bc81.chunk.js"
   },
   {
     "revision": "415773fd84f8cf05b805",
