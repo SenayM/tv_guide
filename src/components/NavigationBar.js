@@ -23,10 +23,10 @@ export const NavigationBar = () => (
             <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
-                    <Nav.Item><Nav.Link href="#/">Home</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href="#/programs">Programs</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href="#/schedule">Schedule</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href="#/stations">Stations</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link href="/">Home</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link href="/programs">Programs</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link href="/schedule">Schedule</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link href="/stations">Stations</Nav.Link></Nav.Item>
                 </Nav>
                 <Form inline>
       <FormControl type="text" placeholder="Search" className="mr-sm-2" />
