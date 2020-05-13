@@ -12,6 +12,7 @@ export class Schedule extends Component {
 
     componentDidMount(){
         this.refreshList();
+        console.log("process.env.PUBLIC_URL"+process.env.PUBLIC_URL +" Was");
     }
     refreshList(){
         this.getSchedule();

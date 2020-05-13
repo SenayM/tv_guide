@@ -7,14 +7,14 @@ import {Stations} from './pages/Stations'
 import {NotFoundPage} from './pages/NotFoundPage';
 import {NavigationBar} from './components/NavigationBar'
 import {Jumbotron} from './components/Jumbotron'
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import {HashRouter , Route, Switch} from 'react-router-dom';
 
 function App() {
   return (
     <React.Fragment>
       <NavigationBar/>
       <Jumbotron/>
-      <BrowserRouter  basename={process.env.PUBLIC_URL}>
+      <HashRouter basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route exact path="/" component={Home}/>
           <Route exact path="/programs" component={Programs}/>
@@ -22,7 +22,7 @@ function App() {
           <Route exact path="/stations" component={Stations}/>
           <Route component={NotFoundPage}/>
         </Switch>
-      </BrowserRouter>
+      </HashRouter>
     </React.Fragment>
   );
 }
